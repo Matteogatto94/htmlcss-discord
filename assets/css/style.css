@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug header {
+    background-color: aqua;
+    padding: 10;
+    padding: 10px 0;
+}
+
+.debug .container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 217, 0);
+}
+
+.debug .banner {
+    background-color: pink;
+    height: 500px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+
+.debug .banner_1 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: fuchsia;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+[class^=col-] {
+    padding: 5px;
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+    text-align: center;
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6);
+    text-align: center;
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+    text-align: center;
+}
+
+.login {
+    text-align: right;
+}
+
+.section_1,
+.section_2,
+.section_3 {
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    padding: 40px 0;
+}
+
+
+.debug .section_row {
+    height: 500px;
+}
+
+.section_row {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.grey {
+    background-color: lightgray;
+}
+
+
+.debug .col-8 {
+    background-color: green;
+}
+
+.debug .col-4 {
+    background-color: pink;
+}
+
+footer {
+    background-color: rgb(31, 31, 32);
+    padding: 40px 0;
+}
+
+.footer_container {
+    height: 500px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: green;
+}
