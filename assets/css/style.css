@@ -132,7 +132,7 @@ header {
 }
 
 .banner {
-    background-image: url(/assets/img/jumbo.png);
+    background-image: url(/htmlcss-discord/assets/img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -174,27 +174,26 @@ header {
 }
 
 .section_1 .col-8 {
-    background-image: url(/assets/img/item1.svg);
+    background-image: url(/htmlcss-discord/assets/img/item1.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
 }
 
 .section_2 .col-8 {
-    background-image: url(/assets/img/item2.svg);
+    background-image: url(/htmlcss-discord/assets/img/item2.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
 }
 
 .section_3 .col-8 {
-    background-image: url(/assets/img/item3.svg);
+    background-image: url(/htmlcss-discord/assets/img/item3.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
 }
 
-.smart_table {
-    height: 600px;
-    padding: 40px 0;
-    background-image: url(/assets/img/item4-big.svg);
+.smart_tablet {
+    padding-bottom: 40rem;
+    background-image: url(/htmlcss-discord/assets/img/item4-big.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
@@ -204,14 +203,13 @@ header {
     background-color: lightgray;
 }
 
-.section_3_button {
+.third_section_button {
     background-color: var(--di-lightblue);
     color: var(--di-white);
 }
 
 .section_download {
     margin-top: 50px;
-    height: 100px;
 }
 
 .section_download h2 {
@@ -221,10 +219,10 @@ header {
 
 
 .star {
-    background-image: url(/assets/img/stars.svg);
+    background-image: url(/htmlcss-discord/assets/img/stars.svg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 50px;
+    padding: 1.5rem;
 }
 
 
@@ -301,3 +299,4 @@ footer a {
     color: var(--di-white);
     text-decoration: none;
 }
+
